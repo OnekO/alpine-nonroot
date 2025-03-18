@@ -1,6 +1,6 @@
 FROM alpine:latest
 
-ARG USER=oneko
+ARG USER=1000
 ENV HOME /home/$USER
 RUN adduser -D $USER
 USER $USER
